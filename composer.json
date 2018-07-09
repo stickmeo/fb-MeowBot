@@ -1,0 +1,29 @@
+{
+    "name": "stickmeo/fb-meowbot",
+    "license": "MIT",
+    "description": "Easily develop your Facebook Messenger Chabot with php and kawaii syntax 😊😊😊",
+    "keywords": [
+        "Facebook",
+        "Messenger",
+        "Bot",
+        "MeowBot",
+        "Chatbot"
+    ],
+    "homepage": "https://github.com/stickmeo/fb-meowbot",
+    "authors": [
+        {
+            "name": "Stick Meo",
+            "email": "stickmeo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "jeremeamia/SuperClosure": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "stickmeo\\MeowBot\\": "src/"
+        }
+    }
+}
